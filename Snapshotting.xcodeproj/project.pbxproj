@@ -36,7 +36,6 @@
 		62CF765E1C0ED7BD00B63707 /* SnapshottingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshottingUITests.swift; sourceTree = "<group>"; };
 		62CF76601C0ED7BD00B63707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62CF76671C0ED95300B63707 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
-		62CF766B1C0EDA9100B63707 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,7 +249,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				62CF76491C0ED5DE00B63707 /* Base */,
-				62CF766B1C0EDA9100B63707 /* th */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -412,6 +410,7 @@
 				62CF76551C0ED5DE00B63707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62CF76631C0ED7BE00B63707 /* Build configuration list for PBXNativeTarget "SnapshottingUITests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +419,7 @@
 				62CF76651C0ED7BE00B63707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

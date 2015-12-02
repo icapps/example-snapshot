@@ -5,8 +5,7 @@ devices([
 
 # A list of languages you want to take the screenshots from
 languages([
-  "en",
-  "th"
+  "en"
 ])
 
 # Clear all previously generated screenshots before creating new ones
