@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623090711C0EE3BA003C47BF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623090701C0EE3BA003C47BF /* ListViewController.swift */; };
+		623090731C0EE3D1003C47BF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623090721C0EE3D1003C47BF /* DetailViewController.swift */; };
 		62CF76451C0ED5DE00B63707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF76441C0ED5DE00B63707 /* AppDelegate.swift */; };
 		62CF764A1C0ED5DE00B63707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CF76481C0ED5DE00B63707 /* Main.storyboard */; };
 		62CF764C1C0ED5DE00B63707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CF764B1C0ED5DE00B63707 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		623090701C0EE3BA003C47BF /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		623090721C0EE3D1003C47BF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		62CF76411C0ED5DE00B63707 /* Snapshotting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapshotting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62CF76441C0ED5DE00B63707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62CF76491C0ED5DE00B63707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6230906F1C0EE3A4003C47BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				623090701C0EE3BA003C47BF /* ListViewController.swift */,
+				623090721C0EE3D1003C47BF /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		62CF76381C0ED5DE00B63707 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				62CF76441C0ED5DE00B63707 /* AppDelegate.swift */,
+				6230906F1C0EE3A4003C47BF /* Controllers */,
 				62CF76571C0ED5F200B63707 /* Support */,
 				62CF76561C0ED5EF00B63707 /* UI */,
 			);
@@ -221,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623090731C0EE3D1003C47BF /* DetailViewController.swift in Sources */,
+				623090711C0EE3BA003C47BF /* ListViewController.swift in Sources */,
 				62CF76451C0ED5DE00B63707 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

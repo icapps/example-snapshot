@@ -30,7 +30,7 @@ class SnapshottingUITests: XCTestCase {
         snapshot("1Capitan")
         
         // Create yosemite snapshot.
-        let backButton = app.navigationBars["UIView"].buttons.elementBoundByIndex(0)
+        let backButton = app.navigationBars["Snapshotting.DetailView"].buttons.elementBoundByIndex(0)
         backButton.tap()
         app.tables.cells.elementBoundByIndex(1).tap()
         snapshot("2Yosemite")
@@ -38,6 +38,6 @@ class SnapshottingUITests: XCTestCase {
         // Create mavericks snapshot.
         backButton.tap()
         app.tables.cells.elementBoundByIndex(2).tap()
-        snapshot("3Mavericks")
+        snapshot("3Mavericks")        
     }
 }
