@@ -62,9 +62,9 @@
 		62CF76561C0ED5EF00B63707 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				62CF76481C0ED5DE00B63707 /* Main.storyboard */,
 				62CF764B1C0ED5DE00B63707 /* Assets.xcassets */,
 				62CF764D1C0ED5DE00B63707 /* LaunchScreen.storyboard */,
+				62CF76481C0ED5DE00B63707 /* Main.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";
