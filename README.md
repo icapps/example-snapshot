@@ -1,4 +1,4 @@
- # Snapshot Example project
+# Snapshot Example project
 
  This is an example Xcode project, that allows you to easily take snapshots with the [snapshot](https://github.com/fastlane/snapshot) gem created by Felix Krause.
 
